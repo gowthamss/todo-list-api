@@ -11,6 +11,9 @@
     "lint": "prettier --write /src/**/*.ts"
   },
   "type": "module",
+  "imports": {
+    "#*": "./src/*.js"
+  },
   "author": "gowthamss",
   "license": "MIT",
   "private": false,
