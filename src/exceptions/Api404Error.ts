@@ -1,5 +1,5 @@
-import BaseError from './BaseError.ts';
-import { httpStatusCodes } from '../utils/httpStatusCodes.ts';
+import BaseError from './BaseError.js';
+import { httpStatusCodes } from '../utils/httpStatusCodes.js';
 
 class Api404Error extends BaseError {
     constructor(
